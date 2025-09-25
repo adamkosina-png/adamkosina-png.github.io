@@ -26,4 +26,11 @@ header hi {
 
 nav a {
  color: white;
-text-decoration: none;
+ text-decoration: none;
+ margin: 0 15px;
+ padding: 8px 16px;
+ border-radius: 4px;
+ transition: background 0.3s;
+}
+
+nav a:hover {
