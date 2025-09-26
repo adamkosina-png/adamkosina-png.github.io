@@ -38,11 +38,34 @@ nav a:hover {
 }
 
 /* Hlavní obsah */
-main {
+main }
  max-width: 800px;
  margin: 2rem auto;
  padding: 0 1rem;
  background: white;
  border-radius: 8px;
  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section {
+ padding: 2rem;
+ border-bottom: 1px solid #eee;
+}
+
+section:last-child {
+ border-bottom: none;
+}
+
+h2 {
+ color :#2c3e50;
+ margin-bottm: lrem;
+}
+
+/* Footer */
+footer {
+ text-algin: center;
+ padding: 1rem;
+ background: #344955e;
+ color: white;
+ margin-top: 2rem;
 }
