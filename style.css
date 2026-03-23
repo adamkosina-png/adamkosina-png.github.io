@@ -7,16 +7,16 @@
 }
 
 body {
- font-family: Arial, sans-serif;
+font-family: "Chiron GoRound TC", sans-serif;
  line-heigth: 1.6;
  font-size: 20px;
- color: #333;
+ color: #d8d3d3;
  background-color: #69c3f0;
 }
 
 /* Header a navigace */
 header {
- background: #69c3f0;
+ background: #669bb6;
  padding: 1rem 0;
  text-algin: center;
 }
@@ -37,7 +37,7 @@ font-family: "Chiron GoRound TC", sans-serif;
 }
 
 nav a:hover {
- background: #486f7b;
+ background: #69c3f0;
 }
 
 /* Hlavní obsah */
