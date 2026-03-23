@@ -3,7 +3,7 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- background-color: url("https://res.cloudinary.com/dljmf7bk8/image/upload/f_auto,fl_lossy,c_limit,w_2560,dpr_auto,q_75/v1763630642/6_7_304afd99f0.webp");
+ background-image: url("https://res.cloudinary.com/dljmf7bk8/image/upload/f_auto,fl_lossy,c_limit,w_2560,dpr_auto,q_75/v1763630642/6_7_304afd99f0.webp");
 }
 
 body {
