@@ -24,9 +24,6 @@ header {
 header hi {
  margin-bottm: lrem;
 }
-nav {
-font-size: 30px;
-}
 
 nav a {
  color: white;
@@ -35,6 +32,7 @@ nav a {
  padding: 8px 16px;
  border-radius: 4px;
  transition: background 0.3s;
+ font-size: 40px;
 }
 
 nav a:hover {
