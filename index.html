@@ -14,14 +14,14 @@
   <nav>
     <a href="https://youareanidiot.cc/">Vir</a>
     <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">67</a>
-    <a href="https://www.youtube.com/watch?v=nCsV8F1uvMA">Memes</a>
+    <a id="meniciOdkaz" href="https://www.youtube.com" target="_blank" onclick="zmenCil()">Memes</a>
   </nav>  
 </header>
 
 <main>
   <section id="o mne">
     <h2>Vir</h2>
-    <p>Zde tě naučím jak stáhnout vir.</p>
+    <p></p>
   </section>
 
   <section id="galerie">
@@ -38,5 +38,31 @@
 <footer>
   <p>&copy;2026-message=67</p>
 </footer>
+
+<script>
+  // Seznam vašich 5 videí/stránek
+  const odkazy = [
+    "https://www.youtube.com/watch?v=nCsV8F1uvMA",
+    "https://www.youtube.com/shorts/8_ld3pDayM4",
+    "https://www.youtube.com/shorts/KyQ6VeywlSI",
+    "https://www.youtube.com/shorts/_lDL6grZvCE",
+    "https://www.youtube.com/shorts/MTwoWWmN4HE"
+  ];
+
+  let index = 0;
+
+  function zmenCil() {
+    const link = document.getElementById('meniciOdkaz');
+    
+    // Posuneme index na další odkaz v seznamu
+    index = (index + 1) % odkazy.length;
+    
+    // Tady se stane to kouzlo: změníme href pro PŘÍŠTÍ kliknutí
+    setTimeout(() => {
+      link.href = odkazy[index];
+    }, 500); // Malé zpoždění, aby se stihlo otevřít to aktuální
+  }
+</script>
+
 </body>
 </html>
